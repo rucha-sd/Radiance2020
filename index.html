@@ -1,0 +1,958 @@
+
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="keywords" content="radiance,ACM,PASC,pasc,radiance20,radiance-20,radiance20,pict acm student chapter,pasc radiance">
+  <title>Radiance'20</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="Welcome to the website of Radiance 2020!">
+  
+  <link rel="shortcut icon" type="image/x-icon" href="img/Radiance icon.png">
+
+
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="scss/aboutUs.css">
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      scroll-behavior: smooth;
+    }
+
+
+ 
+    header {
+      background-color: #252525;
+      box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    #particles-js canvas {
+      width: 100vw;
+    }
+
+    .section {
+      padding-top: 10vh;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+
+    .bg-darker {
+      background-color: black;
+    }
+
+    .modal-open .modal {
+      z-index: 999999;
+    }
+
+    footer {
+      background: #000;
+      ;
+      /* box-shadow: 15px rgba(1, 1, 1, 0.5); */
+    }
+
+    footer p {
+      color: white;
+    }
+
+    footer span {
+      color: red;
+    }
+  </style>
+</head>
+
+<body style="background-color: black;">
+
+  <div id="preloader">
+    <div id="loader"></div>
+  </div>
+
+
+  <div class="container">
+    <div id="particles-js">
+    </div>
+  </div>
+
+
+  <header class="header" style="z-index: 99999;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-darker">
+      <a class="navbar-brand" href="#"><img src="img/PASC-W.png" height="80px" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto mr-auto mt-2 mt-lg-0">
+          <li class="nav-item m-2">
+            <a class="nav-link" href="#home" data-toggle="collapse" data-target=".navbar-collapse.show">Home
+            </a>
+          </li>
+          <li class="nav-item m-2">
+            <a class="nav-link" href="#eaa" data-toggle="collapse" data-target=".navbar-collapse.show">Events and
+              Activities</a>
+          </li>
+          <li class="nav-item m-2">
+            <a class="nav-link" href="#domains" data-toggle="collapse" data-target=".navbar-collapse.show">Domains</a>
+          </li>
+          <li class="nav-item m-2">
+            <a class="nav-link" href="#about" data-toggle="collapse" data-target=".navbar-collapse.show">About Us</a>
+          </li>
+          <li class="nav-item m-2">
+            <a class="nav-link" href="#sponsors" data-toggle="collapse" data-target=".navbar-collapse.show">Sponsors</a>
+          </li>
+          <li class="nav-item m-2">
+            <a class="nav-link" href="#contact" data-toggle="collapse" data-target=".navbar-collapse.show">Contact
+              Us</a>
+
+        </ul>
+
+      </div>
+    </nav>
+  </header>
+
+  <!-- header-end -->
+
+  <!-- slider_area_start -->
+  <div id="home" class="section" style="padding-top: 0;">
+    <div id="sectionhome">
+      <div class="slider_area ">
+        <div class="single_slider  d-flex align-items-center slider_bg_1">
+          <div class="container " data-aos="fade-up" data-aos-duration="1000">
+            <div class="row align-items-center mt-5">
+              <div class="col-xl-10 offset-xl-1 mt-5" style="padding: 15px 15px;">
+                <div class="container">
+                  <img src="img/Radiance logo.png" alt="" height="100%" width="100%">
+                  <p style="padding-top:35px; padding-bottom:0px ;color: #fff;"><em>PASC-W Annual Technical and Non
+                      Technical
+                      Event<br>
+                     </em></p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- slider_area_end -->
+
+
+    <!-- <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="time middle" style="padding-bottom: 30px;" data-aos="fade-up" data-aos-duration="1000">
+            <span>
+              <div id="d"></div>
+              <p>Days</p>
+            </span>
+            <span>
+              <div id="h"></div>
+              <p>Hours</p>
+            </span>
+            <span>
+              <div id="m"></div>
+              <p> Minutes</p>
+            </span>
+            <span>
+              <div id="s"></div>
+              <p> Seconds</p>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+  </div>
+
+  <div id="eaa" class="section">
+
+    <!--Events and Activities-->
+
+    <h3 style="text-shadow: 3px 3px lightcoral; padding-top: 30px; padding-bottom: 10px;" data-aos="fade-up"
+      data-aos-duration="1000">EVENTS AND ACTIVITIES</h3>
+    <div class="event">
+      <div class="container-fluid">
+        <div class="row">
+
+          <div class="col-md-3 p-3" data-aos="fade-up" data-aos-duration="1000">
+            <div class="card event_card">
+              <a href="#" data-toggle="modal" data-target="#myModal"> <img src="./img/Code Wars Logo 2.0.png" alt="ML"
+                  style="width:100%;height:100%;"></a>
+              <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">CODE WARS
+              </button>
+
+
+
+
+            </div>
+
+          </div>
+
+          <div class="col-md-3 p-3" data-aos="fade-up" data-aos-duration="1000">
+            <div class="card event_card">
+              <a href="#" data-toggle="modal" data-target="#myModal2"> <img src="./img/Recodeit 1.0.jpg" alt="ML"
+                  style="width:100%;height:100%;"></a>
+              <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal2">RECODE IT
+              </button>
+            </div>
+          </div>
+
+
+
+          <div class="col-md-3 p-3" data-aos="fade-up" data-aos-duration="1000">
+            <div class="card event_card">
+              <a href="#" data-toggle="modal" data-target="#myModal3"> <img src="./img/Quiz_Master logo-2.png" alt="ML"
+                  style="width:100%;height:100%;"></a>
+              <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal3">QUIZMASTER
+              </button>
+
+
+            </div>
+          </div>
+          <div class="col-md-3 p-3" data-aos="fade-up" data-aos-duration="1000">
+            <div class="card event_card">
+              <a href="#" data-toggle="modal" data-target="#myModal4"> <img src="./img/Shutter_UP logo-2.png" alt="ML"
+                  style="width:100%;height:100%;"></a>
+              <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal4">SHUTTER UP
+              </button>
+
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+  <!-- domains -->
+  <div id="domains" class="section">
+    <div id="section2">
+      <div class="container">
+        <hr style="opacity: 0.6;">
+      </div>
+      <br><br><br>
+
+      <!--Domains-->
+      <div class="slider_area single_slider slider_text text-center justify-content-center">
+
+        <h3 style="text-shadow: 3px 3px lightcoral; padding-bottom: 50px;" data-aos="fade-up" data-aos-duration="1000">
+          DOMAINS WE WORK IN</h3>
+      </div>
+      <div class="container">
+        <div class="row align-items-center" style="padding-top:30px;">
+
+          <div class="col-md-4 align-items-center text-center" data-aos="fade-up" data-aos-duration="1000">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="./img/ml.jpg" alt="ML">
+                </div>
+                <div class="flip-card-back">
+                  <h4>Machine Learning</h4>
+                  <p>Machine Learning is the future and PASC-W has an active involvement in shaping the students in this
+                    creative field.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4 align-items-center" data-aos="fade-up" data-aos-duration="1000"">
+                <div class=" flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="./img/android.png" alt="Android">
+              </div>
+              <div class="flip-card-back">
+                <h4>Android Development</h4>
+                <p>Now is a good time to pursue a career in Android development. It is not only an easy skill to learn,
+                  but also highly in demand.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-4 align-items-center" data-aos="fade-up" data-aos-duration="1000">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="./img/webdev.jpg" alt="Web">
+              </div>
+              <div class="flip-card-back">
+                <h4>Web Development</h4>
+                <p>Web Development is one of the primary domains of PASC. The various chapter activities are organized
+                  to
+                  help students sharpen their Web-Dev skills.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-4 align-items-center" data-aos="fade-up" data-aos-duration="1000">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="./img/about/blockchain.jpg" alt="Blockchain">
+            </div>
+            <div class="flip-card-back">
+              <h4>Blockchain</h4>
+              <p>Blockchain is the future of many businesses. The key value proposition of blockchain is to provide
+                transparency and efficiency.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 align-items-center" data-aos="fade-up" data-aos-duration="1000">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="./img/cs.jpg" alt="CyberSec">
+            </div>
+            <div class="flip-card-back">
+              <h4>Cyber Security</h4>
+              <p>The purpose of cybersecurity is to help prevent cyberattacks, data breaches and identity theft and
+                can
+                aid in risk management.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 align-items-center" data-aos="fade-up" data-aos-duration="1000">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="./img/cp2.jpg" alt="Competitive">
+            </div>
+            <div class="flip-card-back">
+              <h4>Competitive Coding</h4>
+              <p>The purpose of getting better at competitive programming is to improve your fundamental programming
+                skills.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <br><br><br>
+  </div>
+
+
+  </div>
+  </div>
+  </div>
+
+  <div id="section3">
+    <div class="container">
+      <hr style="opacity: 0.6;">
+    </div><br><br><br>
+  </div>
+  </div>
+  <!--About Us-->
+
+   <div id="about" class="section">
+    <h3 style="text-shadow: 3px 3px lightcoral; padding-bottom: 10px;" data-aos="fade-up" data-aos-duration="1000">
+      ABOUT US</h3>
+    <div class="container">
+
+      <div class="row justify-content-center">
+
+        <div class=" col-md-4" style=" padding-top: 5%;">
+          <div class="box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="imgBx">
+              <img src="img/PASC.png">
+            </div>
+            <div class="content">
+              <h3 style="color: black;">PASC</h3>
+              <p class="card-text">ACM PICT is a student chapter organization subsidiary of Association for Computing
+                Machinery, a
+                worldwide
+                learning society
+                for computing. We always have the vision to give the best of our capabilities to help an
+                individual to grow in all
+                aspects and also to make ACM student chapter an ideal platform for students.</p>
+              <a class="btn btn-warning" target="_blank" href="https://pict.acm.org">Know More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 " style="padding-top: 5%;">
+          <div class="box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="imgBx">
+              <img src="img/PASC-W2.png">
+            </div>
+            <div class="content">
+              <h3 style="color: black;">PASC-W</h3>
+              <p class="card-text">Encouraging gender equality and women empowerment, PASC-W promotes full engagement
+                of
+                women in the
+                technical domain. Through its collaborations and initiatives, PASC-W provides a large range of services
+                to
+                all ACM members
+                along with pushing the advancement of contribution of women in the field of computing</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 align-items-center" style="padding-top: 5%;">
+          <div class="box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="imgBx">
+              <img src="img/acmwlogo.png">
+            </div>
+            <div class="content">
+              <h3 style="color: black;">ACM-W</h3>
+              <p class="card-text">ACM-W supports, celebrates, and advocates internationally for the full engagement
+                of
+                women in all
+                aspects of the computing field, providing a wide range of programs and services to ACM members and
+                working
+                in the larger
+                community to advance the contributions of technical women.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    </section>
+    <br><br>
+
+    <div id="sponsors" class="section">
+      <div id="section4">
+        <br><br><br>
+        <div class="container">
+          <hr style="opacity: 0.6;">
+        </div>
+
+        <h3 style="text-shadow: 3px 3px lightcoral;" data-aos="fade-up" data-aos-duration="1000">SPONSORS</h3>
+
+
+        <div class="text-center" style="position:relative; top: 30vh; ">
+          <h2>Coming Soon...</h2>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <div id="contact" class="section">
+      <div id="section4">
+        <br><br><br>
+        <div class="container">
+          <hr style="opacity: 0.6;">
+        </div>
+
+        <h3 style="text-shadow: 3px 3px lightcoral;" data-aos="fade-up" data-aos-duration="1000">CONTACT US</h3>
+        <div class="container">
+          <div class="row" data-aos="fade-up" data-aos-duration="1000">
+            <div class="col-md-6"
+              style="padding: 7% ;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.57618972542!2d73.84864491538853!3d18.457542087445763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2eac85230ba47%3A0x871eddd0a8a0a108!2sSCTR&#39;S%20Pune%20Institute%20of%20Computer%20Technology!5e0!3m2!1sen!2sin!4v1577111648170!5m2!1sen!2sin"
+                width="100%" height="400" frameborder="0"
+                style="border:0;border-radius: 5px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">"
+                allowfullscreen=""></iframe>
+            </div>
+
+            <div class="col-md-6">
+              <div class="container text-center">
+                <div class="row" data-aos="fade-up" data-aos-duration="1000">
+                  <p id="add">
+                    <i class="fa fa-map-marker" style="font-size: 5vh; color: red;"></i>
+                    <b style="font-size: 5vh; color:white;">Address</b><br><br>
+                    Pune Institue Of Computer Technology,<br>
+                    Survey No. 27,Near Trimurti Chowk,<br>Pune,Maharashtra 411043<br><br>
+
+                    Aditi Bhosale: 9404025997<br>
+                    Madhura Kunjir: 9890607288<br>
+
+                  </p>
+                  <div class="mobileHide mr-auto ml-auto">
+                    <h5>
+                      <div class="icon-bar trans socialcolour iconside icondesk">
+                        <a href="https://www.facebook.com/acmpict/" target="_blank" class="facebook"><i
+                            class="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/_pict_acm_" target="_blank" class="twitter"><i
+                            class="fa fa-twitter"></i></a>
+                        <a href="mailto:acm.pict@gmail.com" target="_blank" class="google"><i
+                            class="fa fa-google"></i></a>
+                        <a href="https://www.linkedin.com/company/pict-acm-student-chapter" target="_blank"
+                          class="linkedin"><i class="fa fa-linkedin"></i></a>
+                      </div>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mobileShow">
+          <div class="footer" style="height: fit-content; background-color: black;">
+            <div class="footer_widget">
+
+              <div class="socail_links">
+                <ul>
+                  <li>
+                    <a href="https://www.facebook.com/acmpict/" target="_blank">
+                      <i class="ti-facebook"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/_pict_acm_" target="_blank">
+                      <i class="ti-twitter-alt"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="mailto:acm.pict@gmail.com" target="_blank">
+                      <i class="fa fa-google"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/company/pict-acm-student-chapter" target="_blank">
+                      <i class="fa fa-linkedin"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      </section>
+
+      <footer>
+        <div class="footer-bottom">
+          <div class="container text-center">
+            <p> Developed with <span>❤</span> by PASC Web team. </p>
+            <a class="btn btn-info mb-3" data-toggle="modal" data-target="#developers">Developers</a>
+
+          </div>
+        </div>
+      </footer>
+
+
+      <div class="modal" id="myModal" style="z-index: 999999;">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">CODE WARS</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+              <p>
+                <p>Code Wars is a competition where the participants are expected to code for given
+                  problemstatements. <br>
+                  Round 1 : The participants will have to write correct and efficient code for a given set of
+                  problem statements . This competition will be hosted on hackerrank. <br>
+                  Round 2 : The competition will take place in pair of teams who will compete with each other for
+                  20 minutes. The team which loses will be eliminated from the competition. The top two teams will
+                  have a final round of 30 minutes and the team that succeeds in all the rounds will be the
+                  ultimate winner.<br>
+                  <b>Rules and Regulations: </b><br>
+                  1. Both the groups, FE-SE and TE-BE, will be given 2 hours to complete the first round. <br>
+                  2. The participants can code in either C, C++ or Python. <br>
+                  3. Participants are requested to have an account on HackerRank.<br>
+                  4. Any offline IDE can be used but use of any online IDE other than the one provided by
+                  HackerRank
+                  is not allowed. <br>
+                  <b>Team Distribution:</b><br>
+                  1. FE-SE (Junior Team): Team of 2<br>
+                  2. TE-BE (Senior Team): Team of 2 <br>
+                  3. Individual <br>
+                  <b>Fees:</b> Rs.80 (Individual) <br>
+
+
+                  Rs.100 (Team of 2) <br>
+                  Contact: Janhavi- 9284533017
+                </p>
+              </p>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- modal 2 -->
+
+      <div class="modal" id="myModal2">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">RECODE IT</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+              <p>
+                Round 1: This is MCQ round which will be conducted on MCQ platform. <br>
+                Round 2: Second round a set of executable files will be given. The participants can run the
+                executables files and give custom input to see the respective output. The participants can run the
+                files any number of times they want. From the given custom inputs by the participant they need to
+                figure out the logic of the code of the executable file and code it. Use of the Internet is
+                strictly prohibited and will result in disqualification.<br>
+                <b>Team Distribution:</b><br>
+                1. FE/SE (Junior Team): Team of 2 <br>
+                2. TE/BE (Senior Team): Team of 2 <br>
+                3. Individual <br>
+                <b>Fees:</b> Rs.80 (Individual) <br>
+                Rs.100 (Team of 2) <br>
+                Contact : Rucha- 9922220503
+              </p>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- modal 3 -->
+      <div class="modal" id="myModal3">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">QUIZMASTER</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+              <p>
+
+                <i>Are you a meister, then decode this!</i><br>
+                Quizmaster is a competition where your logical and analytical skills will be checked. The
+                competition will consist of real life facts, brainstorming puzzles, teasers and much more…! <br>
+                <b>Rules and Regulations:</b><br>
+                1.This competition will be time based. Each participant will be given a fixed amount of questions
+                and each question will have a fixed amount of time. <br>
+                2.After the time limit for a particular question exceeds the next will appear on screen
+                immediately. <br>
+                3.The time taken by the participant for each question will be recorded and the participant who
+                took least time and scored maximum points will win.<br>
+                So if you have the ease to solve the tricky questions and test your wittiness then participate in
+                our event and prove your intelligence! <br>
+                <b>Team Distribution:<br></b>
+                1.FE/SE/TE/BE : Individual <br>
+                <b>Fees:</b> Rs.80 per person <br>
+
+                Contact: Bhawana - 9765026398 <br> Rutuja - 7775026118
+              </p>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- modal 4 -->
+      <div class="modal" id="myModal4">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">SHUTTER UP</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+              <p>
+                <b>Photography Contest ✓ </b><br>
+                Is there a hidden iconic photographer within you? If yes, then PANORAMA provides you an
+                opportunity to showcase your talent. The participants need to submit the pictures clicked by them
+                online and their pictures will be showcased on our Instagram page. <br>
+                <b>Rules and Regulations: </b><br>
+                1. You are required to provide a unique title & description for each image submitted. <br>
+                2. There must be no border, copyright mark <br>
+                3.Photos that portray or otherwise include inappropriate and/or offensive content, including
+                provocative nudity, violence, human rights and/or environmental violation, and/or any other
+                contents deemed to be contrary to the law, religious, cultural & moral traditions and practices of
+                India, are strictly prohibited and will be immediately discarded. <br>
+                4.Maximum 3 entries per person will be permitted. <br>
+                Photos will be uploaded on facebook and Instagram page of ACM student chapter.Follow the facebook
+                and instagram handle to get notified when your photo is uploaded.
+                Contestants whose photo get the most likes on facebook and on Instagram will be declared winner.
+                <br>
+                <b> Team Distribution:</b> <br>
+                1.FE/SE/TE/BE : Individual <br>
+                <b> Fees:</b> Rs.50- 1 photo <br>
+                Rs.80- 2 photos <br>
+                Rs.100- 3 photos <br>
+
+                Contact: Manali- 7757014444
+              </p>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+
+  <section id="team" class="team-area">
+    <div class="modal fade" id="developers" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Developers</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+          </div>
+          <div class="modal-body">
+            <div class="row justify-content-around team-items">
+
+              <div class="col-md-1"></div>
+              <div class="col-md-5 single-item">
+                <div class="item">
+                  <div class="thumb">
+                    <img class="img-council" src="img/team/janhavi.jpeg" alt="Thumb">
+
+                  </div>
+                  <div class="info">
+                    <span class="message">
+                      <a target="_blank" href="https://www.linkedin.com/in/janhavi-tripurwar-87660717b/">
+                        <i class="fa fa-linkedin"></i>
+                      </a>
+                    </span>
+                    <h4>Janhavi Tripurwar</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5 single-item">
+                <div class="item">
+                  <div class="thumb">
+                    <img class="img-council" src="img/team/rucha.jpeg" alt="Thumb">
+
+                  </div>
+                  <div class="info">
+                    <span class="message">
+                      <a target="_blank" href="https://www.linkedin.com/in/rucha-deshpande-ba0a97193"><i
+                          class="fa fa-linkedin"></i></a>
+                    </span>
+                    <h4>Rucha Deshpande</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-1"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </section>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script
+    src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-de7e2ef6bfefd24b79a3f68b414b87b8db5b08439cac3f1012092b2290c719cd.js"></script>
+  <script src="https://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js"></script>
+  <script src=" https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"> </script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
+
+
+  <!-- contact js-->
+  <script type="text/javascript" src="particles.js"></script>
+  <script type="text/javascript" src="app2.js"></script>
+
+
+  <script>
+    function collision($div1, $div2) {
+      var x1 = $div1.offset().left;
+      var w1 = 40;
+      var r1 = x1 + w1;
+      var x2 = $div2.offset().left;
+      var w2 = 40;
+      var r2 = x2 + w2;
+
+      if (r1 < x2 || x1 > r2)
+        return false;
+      return true;
+    }
+    // Fetch Url value 
+    var getQueryString = function (parameter) {
+      var href = window.location.href;
+      var reg = new RegExp('[?&]' + parameter + '=([^&#]*)', 'i');
+      var string = reg.exec(href);
+      return string ? string[1] : null;
+    };
+    // End url 
+    // // slider call
+    $('#slider').slider({
+      range: true,
+      min: 20,
+      max: 200,
+      step: 1,
+      values: [getQueryString('minval') ? getQueryString('minval') : 20, getQueryString('maxval') ?
+        getQueryString('maxval') : 200
+      ],
+
+      slide: function (event, ui) {
+
+        $('.ui-slider-handle:eq(0) .price-range-min').html(ui.values[0] + 'K');
+        $('.ui-slider-handle:eq(1) .price-range-max').html(ui.values[1] + 'K');
+        $('.price-range-both').html('<i>K' + ui.values[0] + ' - </i>K' + ui.values[1]);
+
+        // get values of min and max
+        $("#minval").val(ui.values[0]);
+        $("#maxval").val(ui.values[1]);
+
+        if (ui.values[0] == ui.values[1]) {
+          $('.price-range-both i').css('display', 'none');
+        } else {
+          $('.price-range-both i').css('display', 'inline');
+        }
+
+        if (collision($('.price-range-min'), $('.price-range-max')) == true) {
+          $('.price-range-min, .price-range-max').css('opacity', '0');
+          $('.price-range-both').css('display', 'block');
+        } else {
+          $('.price-range-min, .price-range-max').css('opacity', '1');
+          $('.price-range-both').css('display', 'none');
+        }
+
+      }
+    });
+
+    $('.ui-slider-range').append('<span class="price-range-both value"><i>' + $('#slider').slider('values', 0) +
+      ' - </i>' + $('#slider').slider('values', 1) + '</span>');
+
+    $('.ui-slider-handle:eq(0)').append('<span class="price-range-min value">' + $('#slider').slider('values', 0) +
+      'k</span>');
+
+    $('.ui-slider-handle:eq(1)').append('<span class="price-range-max value">' + $('#slider').slider('values', 1) +
+      'k</span>');
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      // Add smooth scrolling to all links
+      $("a").on('click', function (event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function () {
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+
+
+
+
+
+
+  </script>
+
+  <script>
+    setTimeout(function () {
+      $('#preloader').fadeOut('slow');
+
+
+    }, 3000);
+  </script>
+  <script>
+    AOS.init();
+    window.addEventListener('load', AOS.refresh);
+  </script>
+  <script src="countdown.js"></script>
+
+</body>
+
+</html>
